@@ -12,7 +12,6 @@ public class DecimalToRomanConverter {
             }
         }
 
-        roman.append("I".repeat(Math.max(0, decimal)));
         return roman.toString();
     }
 
