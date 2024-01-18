@@ -6,7 +6,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 class DecimalToRomanConverterShould {
 
-    @ParameterizedTest
+    @ParameterizedTest(name = "{0} should be represented as {1}")
     @CsvSource({
             "1,I",
             "2,II",
